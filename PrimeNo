@@ -1,0 +1,13 @@
+package com.company;
+import java.util.Scanner;
+
+public class CheckInt {
+    public static void main(String[] args) {
+        Scanner c = new Scanner(System.in);
+        System.out.println("Checking whether the number is Integer or not");
+        System.out.println("Enter the number: ");
+        int a = c.nextInt();
+        System.out.println("The value of a is: " + a);
+        System.out.println(c.hasNextInt());
+    }
+}
